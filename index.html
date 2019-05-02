@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Stone Paper Scissor Game</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Stone Paper Scissor</h1>
+    </header>
+
+    <div class="score-board">
+      <div id="user-label" class="badge">user</div>
+      <div id="computer-label" class="badge">comp</div>
+      <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div>
+
+    <div class="result">
+      <p>Paper covers stone.You win!</p>
+    </div>
+
+    <div class="choices">
+      <div class="choice" id="r">
+        <img  src="rock.png" alt="" style="width:150px;height:150px">
+      </div>
+      <div class="choice" id="p">
+        <img  src="paper.png" alt="" style="width:150px;height:150px">
+      </div>
+      <div class="choice" id="s">
+        <img  src="scissor.png" alt="" style="width:150px;height:150px">
+      </div>
+    </div>
+
+    <p id="action-message">Make your move</p>
+    <script src="function.js" charset="utf-8"></script>
+  </body>
+</html>
